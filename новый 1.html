@@ -1,0 +1,128 @@
+Вот пример HTML-кода для веб-версии анкеты суррогатной матери. Этот код создаст форму, которая включает все вопросы, которые ты указал:
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета суррогатной матери</title>
+</head>
+<body>
+    <h2>Анкета суррогатной матери</h2>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="fio">Ф.И.О.:</label><br>
+        <input type="text" id="fio" name="fio" required><br><br>
+
+        <label for="dob">Дата рождения:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="nationality">Национальность:</label><br>
+        <input type="text" id="nationality" name="nationality" required><br><br>
+
+        <label for="marital_status">Семейное положение:</label><br>
+        <input type="text" id="marital_status" name="marital_status" required><br><br>
+
+        <label for="address">Адрес проживания:</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+
+        <label for="education">Образование:</label><br>
+        <input type="text" id="education" name="education" required><br><br>
+
+        <label for="workplace">Место работы:</label><br>
+        <input type="text" id="workplace" name="workplace" required><br><br>
+
+        <label for="height">Рост:</label><br>
+        <input type="number" id="height" name="height" required><br><br>
+
+        <label for="weight">Вес:</label><br>
+        <input type="number" id="weight" name="weight" required><br><br>
+
+        <label for="pregnancy">Как проходит у Вас беременность?</label><br>
+        <textarea id="pregnancy" name="pregnancy" rows="4" required></textarea><br><br>
+
+        <label for="blood_pressure">Какое у вас рабочее артериальное давление?</label><br>
+        <input type="text" id="blood_pressure" name="blood_pressure" required><br><br>
+
+        <label for="children">Дети (количество, имя, дата рождения, как проходили роды, на каком сроке родили):</label><br>
+        <textarea id="children" name="children" rows="4" required></textarea><br><br>
+
+        <label for="breastfeeding">Кормили ли вы грудью последнее время, как давно завершили лактацию, если дети маленькие?</label><br>
+        <textarea id="breastfeeding" name="breastfeeding" rows="4" required></textarea><br><br>
+
+        <label for="contraceptives">Использование гормональных контрацептивов?</label><br>
+        <textarea id="contraceptives" name="contraceptives" rows="4" required></textarea><br><br>
+
+        <label for="blood_type">Группа крови, резус фактор:</label><br>
+        <input type="text" id="blood_type" name="blood_type" required><br><br>
+
+        <label for="menstrual_cycle">Менструальный цикл, регулярность?</label><br>
+        <textarea id="menstrual_cycle" name="menstrual_cycle" rows="4" required></textarea><br><br>
+
+        <label for="last_menstruation">Дата начала последней менструации:</label><br>
+        <input type="date" id="last_menstruation" name="last_menstruation" required><br><br>
+
+        <label for="gynecological_diseases">Перенесенные гинекологические заболевания?</label><br>
+        <textarea id="gynecological_diseases" name="gynecological_diseases" rows="4" required></textarea><br><br>
+
+        <label for="std">Были ли болезни, передающиеся половым путем?</label><br>
+        <textarea id="std" name="std" rows="4" required></textarea><br><br>
+
+        <label for="miscarriages">Были ли у Вас выкидыши, аборты? (срок, количество, год)</label><br>
+        <textarea id="miscarriages" name="miscarriages" rows="4" required></textarea><br><br>
+
+        <label for="surrogacy_experience">Опыт участия в программах суррогатного материнства:</label><br>
+        <textarea id="surrogacy_experience" name="surrogacy_experience" rows="4" required></textarea><br><br>
+
+        <label for="smoking">Курите ли Вы?</label><br>
+        <input type="text" id="smoking" name="smoking" required><br><br>
+
+        <label for="alcohol">Употребляете ли Вы спиртные напитки?</label><br>
+        <input type="text" id="alcohol" name="alcohol" required><br><br>
+
+        <label for="chronic_diseases">Наличие хронических заболеваний? Какие?</label><br>
+        <textarea id="chronic_diseases" name="chronic_diseases" rows="4" required></textarea><br><br>
+
+        <label for="surgeries">Были ли у вас операции? Какие и когда?</label><br>
+        <textarea id="surgeries" name="surgeries" rows="4" required></textarea><br><br>
+
+        <label for="family_history">Семейный анамнез (наличие заболеваний или состояний у родственников):</label><br>
+        <textarea id="family_history" name="family_history" rows="4" required></textarea><br><br>
+
+        <label for="multiple_pregnancies">Наличие многоплодных беременностей у родственников?</label><br>
+        <textarea id="multiple_pregnancies" name="multiple_pregnancies" rows="4" required></textarea><br><br>
+
+        <label for="motivation">Почему Вы хотите стать суррогатной мамой?</label><br>
+        <textarea id="motivation" name="motivation" rows="4" required></textarea><br><br>
+
+        <label for="source_info">Откуда узнали о программе суррогатного материнства?</label><br>
+        <input type="text" id="source_info" name="source_info" required><br><br>
+
+        <label for="family_agreement">Согласие Вашего мужа и других членов семьи на участие в программе?</label><br>
+        <textarea id="family_agreement" name="family_agreement" rows="4" required></textarea><br><br>
+
+        <label for="legal_issues">Привлекались ли вы к дисциплинарной, административной или уголовной ответственности?</label><br>
+        <textarea id="legal_issues" name="legal_issues" rows="4" required></textarea><br><br>
+
+        <label for="phone">Номер телефона, вотс-апп:</label><br>
+        <input type="text" id="phone" name="phone" required><br><br>
+
+        <label for="selfie">Фото лица селфи:</label><br>
+        <input type="file" id="selfie" name="selfie" accept="image/*" required><br><br>
+
+        <label for="full_body">Фото в полный рост:</label><br>
+        <input type="file" id="full_body" name="full_body" accept="image/*" required><br><br>
+
+        <label for="passport">Фото загранпаспорта:</label><br>
+        <input type="file" id="passport" name="passport" accept="image/*" required><br><br>
+
+        <label for="curator_name">Имя куратора:</label><br>
+        <input type="text" id="curator_name" name="curator_name" required><br><br>
+
+        <input type="submit" value="Отправить анкету">
+    </form>
+</body>
+</html>
+```
+
+Этот HTML-код создает форму с текстовыми полями, текстовыми областями, датами и возможностью загрузки изображений. Ты можешь разместить эту форму на сайте или использовать для сбора данных. Если нужна обработка данных (например, отправка на email или сохранение в базу данных), потребуется добавить серверную логику (например, на PHP или Python).
